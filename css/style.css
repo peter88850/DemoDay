@@ -170,7 +170,50 @@ p {
     top: -76px
 }
 
+/*sidebar的css，還在嘗試當中*/
 
+.sidebar {
+     width: 300px;
+    height: 626px;
+    float: right;
+    background: gray;
+}
+
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    color:white;
+}
+
+.sidebar-title{
+    padding-top: 16px;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+}
+
+.sidebar-item:hover {
+    background-color: #d6eff2;
+}
+.sidebar .sidebar-item {
+    padding: 12px 20px;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: block;
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: #151719;
+    transition: all 150ms ease;
+}
 
 
 
