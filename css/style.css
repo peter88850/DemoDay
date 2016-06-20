@@ -74,7 +74,8 @@ p {
 }
 
 .footer {
-    
+    background: black;
+    height: 95px;
 }
 
 
@@ -382,6 +383,49 @@ a {
     color: #151719;
     transition: all 150ms ease;
 }
+
+
+
+/*footer的css. 還在嘗試當中*/
+
+.ft-contact {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 22.5px;
+    margin-right: 15px;
+}
+
+.ft-about {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 22.5px;
+    margin-right: 15px;
+}
+
+.social-media {
+    width: 260px;
+    height: 32px;
+    float: right;
+    margin-top: 31.5px;
+}
+
+
+.social-media li {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
