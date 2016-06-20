@@ -115,6 +115,7 @@ p {
     height: 706px;
     background: #333;
     color: white;
+	display: none;
 }
 
 .nv-content {
@@ -352,6 +353,7 @@ p {
 .hottest-news-article {
     height: 626px;
     position: absolute;
+	display: none;
 }
 
 .article-hottest-wrap {
