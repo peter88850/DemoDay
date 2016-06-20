@@ -3,8 +3,6 @@
 === source: http://muki.tw/tech/reset-share-by-muki/
 */
 
-/* 我做一點測試 */
-
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button,textarea, p, blockquote, th, td, figure {
 	margin: 0;
 	padding: 0;
@@ -119,9 +117,10 @@ p {
 }
 
 .nv-content {
-    height: 706px;
-    padding: 100px 100px;
+    height: 506px;
+    padding: 120px 100px 80px 100px;
     overflow: hidden;
+
 }
 
 .nv-work {
@@ -131,19 +130,6 @@ p {
     border-right: 2px solid white;
 }
 
-.nv-ability {
-    width: 560px;
-    height: 230px;
-    float: left;
-    border-bottom: 2px solid white;
-}
-
-.nv-view {
-    width: 560px;
-    height: 230px;
-    float: left;
-    
-}
 
 .nv-title {
     font-size: 24pt;
@@ -186,11 +172,11 @@ p {
     color: white;
 }
 
+
 .nv-work li {
     margin: 20px 0;
     font-size: 14pt;
 }
-
 
 .nv-work li:nth-child(1) span:before {
     content: url("http://placehold.it/30x30");
@@ -270,6 +256,77 @@ p {
     background-repeat: no-repeat;
     vertical-align: middle;
 }
+
+
+.nv-ability {
+    width: 560px;
+    height: 230px;
+    float: left;
+    border-bottom: 2px solid white;
+    padding: 0 40px;
+}
+
+
+.nv-ability li {
+    margin: 20px 20px 20px 0;
+    font-size: 14pt;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+.nv-name {
+    margin-top: 5px;
+}
+
+.nv-ability li:nth-child(1) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
+.nv-ability li:nth-child(2) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
+.nv-ability li:nth-child(3) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
+.nv-ability li:nth-child(4) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
+.nv-view {
+    width: 560px;
+    height: 230px;
+    float: left;
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+.nv-view li {
+    margin: 20px 20px 20px 0;
+    font-size: 14pt;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+.nv-view li:nth-child(1) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
+.nv-view li:nth-child(2) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
+.nv-view li:nth-child(3) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
+.nv-view li:nth-child(4) span:before {
+    content: url("http://placehold.it/30x30");
+}
+
 
 
 
