@@ -42,7 +42,7 @@ body {
 }
 
 a {
-	color: #000;
+    
 }
 
 input {
@@ -80,7 +80,7 @@ p {
 
 /*header*/
 
-.menu {
+.nav {
     width: 50px;
     height: 50px;
     float: left;
@@ -108,6 +108,174 @@ p {
     right: -28px;
     top: 2px
 }
+
+/*navigator*/
+
+.nv-wrapper {
+    width: 1440px;
+    height: 706px;
+    background: #333;
+    color: white;
+}
+
+.nv-content {
+    height: 706px;
+    padding: 100px 100px;
+    overflow: hidden;
+}
+
+.nv-work {
+    width: 210px;
+    height: 460px;
+    float: left;
+    border-right: 2px solid white;
+}
+
+.nv-ability {
+    width: 560px;
+    height: 230px;
+    float: left;
+    border-bottom: 2px solid white;
+}
+
+.nv-view {
+    width: 560px;
+    height: 230px;
+    float: left;
+    
+}
+
+.nv-title {
+    font-size: 24pt;
+    display: inline-block;
+    
+}
+
+.nv-sub-title {
+    font-size: 12pt;
+    display: inline-block;
+}
+
+.nv-sub-title span::after {
+    content: "/";
+}
+
+.nv-sub-title a {
+    color: #7B818C;
+}
+
+.nv-sub-title a:hover {
+    color: white;
+}
+
+.nv-sub-title a:focus {
+    color: #36BEC3;
+}
+
+.nv-link {
+    padding: 20px 0;
+    
+}
+
+.nv-link a {
+    color: #7B818C;
+    
+}
+
+.nv-link a:hover{
+    color: white;
+}
+
+.nv-work li {
+    margin: 20px 0;
+    font-size: 14pt;
+}
+
+
+.nv-work li:nth-child(1) span:before {
+    content: url("http://placehold.it/30x30");
+    
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.nv-work li:nth-child(2) span:before {
+    content:  url("http://placehold.it/30x30");
+    
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.nv-work li:nth-child(3) span:before {
+    content:  url("http://placehold.it/30x30");
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.nv-work li:nth-child(4) span:before {
+    content:  url("http://placehold.it/30x30");
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.nv-work li:nth-child(5) span:before {
+    content:  url("http://placehold.it/30x30");
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.nv-work li:nth-child(6) span:before {
+    content:  url("http://placehold.it/30x30");
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.nv-work li:nth-child(7) span:before {
+    content:  url("http://placehold.it/30x30");
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+
+
+
+
+
 
 /*container*/
 
