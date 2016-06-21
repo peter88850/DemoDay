@@ -59,12 +59,19 @@ p {
     letter-spacing: .2em;
 }
 
-/*layout*/
-
-.header {
-    background: black;
-    height: 95px;
+header {
+	background: black;
+	height: 95px;
 }
+
+header.sticky {
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+	z-index: 2;
+}
+
+/*layout*/
 
 .container {
     width: 1260px;
