@@ -64,9 +64,8 @@ header {
 	height: 95px;
 }
 
+/* 不能固定 */
 header.sticky {
-	position: fixed;
-	display: inline-block;
 	width: 100%;
 	z-index: 2;
 }
@@ -347,7 +346,7 @@ header.sticky {
 
 .img-caseshow {
     margin-top: 30px;
-    overflow: hidden
+	
 }
 
 .hottest-news {
@@ -357,17 +356,35 @@ header.sticky {
     position: relative;
 }
 
+
 .hottest-news-article {
     height: 626px;
     position: absolute;
-	display: none;
+
 }
 
 .article-hottest-wrap {
     position: relative;
-    top: -100px;
+    top: -170px;
     padding-left: 30px
 }
+
+.article-hottest-wrap h4 {
+	font-size: 36pt;
+    font-weight: bold;
+	color: white;
+	margin-bottom: 20px
+}
+
+.article-hottest-wrap p {
+	color: white;
+	font-size: 12pt;
+    max-height: 70px;
+    max-width: 800px;
+    overflow: hidden;
+	line-height: 2em;
+}
+
 
 .article-title {
     font-size: 24pt;
@@ -380,7 +397,6 @@ header.sticky {
     max-width: 800px;
     overflow: hidden;
 }
-
 
 .whats-news {
     width: 300px;

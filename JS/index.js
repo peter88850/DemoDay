@@ -19,7 +19,27 @@ $(function(){
         }
     });
 	
-	//
+	//slideshow//
+	
+	$(".hottest-news").each(function(){
+	
+	var currentIndex = 0,
+		articles = $(".hottest-news-article"),
+		articleAmt = articles.length;
+	
+	setInterval(circleArticles, 2500);		
+		
+	function circleArticles(){
+		var nextIndex = (currentIndex +1) % articleAmt;
+		articles.hide();
+		articles.eq(currentIndex).css('display','inline-block');
+        articles.eq(nextIndex).fadeOut(3000);
+		currentIndex = nextIndex;
+		}
+  	});
+	
+	//slideshow dots//
+	
 	
 	
 	
