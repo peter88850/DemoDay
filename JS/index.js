@@ -38,9 +38,21 @@ $(function(){
 		}
   	});
 	
-	//slideshow dots//
+	//whatsnews mouseover effect//
+	
+	$(".whats-news-items")
+		
+		.on('mouseover',function(){
+		$(this).find('img').css('opacity',0.2);
+		$(this).find('h4').css('color','#36BEC3');
+	})
+	
+		.on('mouseout',function(){
+		$(this).find('img').css('opacity',1);
+		$(this).find('h4').css('color','black');
+	})
 	
 	
-	
+		
 	
 });
