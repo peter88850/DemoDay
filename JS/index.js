@@ -44,15 +44,19 @@ $(function(){
 		
 		.on('mouseover',function(){
 		$(this).find('img').css('opacity',0.2);
-		$(this).find('h4').css('color','#36BEC3');
+		$(this).find('h4').css({
+			color: 'black',
+		});
 	})
 	
 		.on('mouseout',function(){
 		$(this).find('img').css('opacity',1);
-		$(this).find('h4').css('color','black');
-	})
+		$(this).find('h4').css({
+			color: '',
+		});
+	});
 	
 	
-		
+	
 	
 });
