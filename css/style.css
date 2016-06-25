@@ -419,6 +419,28 @@ header.sticky {
 	
 }
 
+/*main 的 css*/
+
+.main{
+    width:640px;
+    background:yellow;
+}
+
+
+.channel-title{
+     padding-top: 16px;
+    font-size: 40px;
+    padding-bottom:  8px;
+     border-bottom: 3px solid black;
+}
+
+.cate-list li{
+   position: relative;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 
 /*sidebar的css，還在嘗試當中*/
 
