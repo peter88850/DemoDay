@@ -451,7 +451,7 @@ header.sticky {
 
 .article-item {
    width: 300px;
-    height: 350px;
+    height: 360px;
     overflow: hidden;
         float: left;
 }
@@ -470,6 +470,9 @@ a:-webkit-any-link {
 }
 
 
+
+
+
 .article-item .article-cover{
     position: relative;
     height: 200px;
@@ -481,6 +484,24 @@ div {
     display: block;
 }
 
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    color:black;
+}
+
+.article-item .article-intro {
+    color: #838383;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.article-item:hover .article-intro, .trending-item:hover .article-intro, .menu-article-item:hover .article-intro {
+    color: #4d4d4d;
+}
 
 
 .bg-wrap {
@@ -527,7 +548,7 @@ div {
 
 }
 .article-title wrap .article-intro{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
