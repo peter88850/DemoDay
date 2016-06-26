@@ -423,7 +423,10 @@ header.sticky {
 /*main 的 css*/
 
 .main{
-    width:960px;
+   width: 940px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
 }
 
 
@@ -431,21 +434,21 @@ header.sticky {
      padding-top: 16px;
     font-size: 40px;
     padding-bottom:  8px;
-     border-bottom: 3px solid black;
+     border-bottom: 3px solid grey;
 }
 
 .cate-list li{
    position: relative;
     display: inline-block;
     margin-left: 1em;
+    margin-right:1em;
     margin-top: 2em;
-    margin-right: 1em;
 }
 
 .main .floating-block-item {
     float: left;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 13px;
     position: relative;
 }
 
@@ -524,11 +527,12 @@ div {
     font-size: 15px;
     position: absolute;
     top: 0px;
-    left: 50px;
+    left: 20px;
     color: white;
     padding-top: 8px;
     font-weight: bold;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border: 1px;
 }
 
 .article-title wrap .article-title{
@@ -548,26 +552,30 @@ div {
 
 .sidebar {
      width: 300px;
-    height: 750px;
+    height: 520px;
     float: right;
-    background: gray;
-    position:relative;
+    background: 	#C0C0C0;
+    position:relative;  
+    border: none;
+    margin-top: 50px;
+    
 }
 
 
 
 h3 {
-    display: block;
+    display: inline-block;
     font-size: 1.17em;
     font-weight: bold;
-    color:white;
+     color:white;
+     left: 20px;
 }
 
 .sidebar-title{
-    padding-top: 16px;
-    font-size: 16px;
-    border-bottom: 2px solid black;
-    position:sticky;
+    padding-top: 8px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #e3e3e3;
 }
 
 .sidebar-item:hover {
@@ -583,6 +591,19 @@ h3 {
     word-wrap: normal;
     display: block;
     color:white;
+
+}
+
+.sidebar .sidebar-number{
+    margin: auto;
+    color:whitesmoke;
+    display: inline-block;
+}
+
+.sidebar .sidebar-name{
+    margin: auto;
+    display: inline-block;
+    font-size:  16px;
 }
 
 a {
