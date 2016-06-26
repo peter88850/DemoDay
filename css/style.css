@@ -77,10 +77,7 @@ header.sticky {
     margin: 0 auto;
 }
 
-.footer {
-    background: black;
-    height: 95px;
-}
+
 
 
 /*header*/
@@ -616,6 +613,22 @@ a {
 
 /*footer的css. 還在嘗試當中*/
 
+.footer{
+    color:black;
+    margin-top: 40px;
+    position: relative;
+    line-height: 56px;
+    
+}
+
+
+.ft-wrapper{
+    position: relative;
+    width: 100%;
+    border-top: 5px solid #36BEC3;
+    background-color: #333;
+    color: #36BEC3;
+}
 .ft-contact {
     width: 50px;
     height: 50px;
@@ -643,10 +656,6 @@ a {
 .social-media li {
 	display: inline-block;
 }
-
-
-
-
 
 
 
