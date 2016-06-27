@@ -614,21 +614,18 @@ a {
 /*footer的css. 還在嘗試當中*/
 
 .footer{
-    color:black;
+    background: black;
+	height: 95px;
+    width:1440px;
     margin-top: 40px;
     position: relative;
     line-height: 56px;
+    float:left;
     
 }
 
 
-.ft-wrapper{
-    position: relative;
-    width: 100%;
-    border-top: 5px solid #36BEC3;
-    background-color: #333;
-    color: #36BEC3;
-}
+
 .ft-contact {
     width: 50px;
     height: 50px;
