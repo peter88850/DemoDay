@@ -77,11 +77,15 @@ header.sticky {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .footer {
     background: black;
     height: 95px;
 	clear: both;
 }
+=======
+
+>>>>>>> cf5623b20ccd979200e2aae60b149985b1159e80
 
 
 /*header*/
@@ -424,6 +428,7 @@ header.sticky {
 }
 
 
+<<<<<<< HEAD
 /*main*/
 
 .main {
@@ -526,16 +531,155 @@ header.sticky {
 	margin-top: 5px;
 	color: #838383;
 }
+=======
+/*main 的 css*/
+
+.main{
+   width: 940px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+
+
+.channel-title{
+     padding-top: 16px;
+    font-size: 40px;
+    padding-bottom:  8px;
+     border-bottom: 3px solid grey;
+}
+
+.cate-list li{
+   position: relative;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right:1em;
+    margin-top: 2em;
+}
+
+.main .floating-block-item {
+    float: left;
+    margin-top: 20px;
+    margin-right: 13px;
+    position: relative;
+}
+
+
+.article-item {
+   width: 300px;
+    height: 360px;
+    overflow: hidden;
+        float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #151719;
+    -webkit-transition: all 150ms ease;
+    -moz-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+
+.article-item .article-cover{
+    position: relative;
+    height: 200px;
+}
+
+
+
+div {
+    display: block;
+}
+
+h4 {
+    display: block;
+    font-weight: bold;
+    color:black;
+}
+
+.article-item .article-intro {
+    color: #838383;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.article-item:hover .article-intro, .trending-item:hover .article-intro, .menu-article-item:hover .article-intro {
+    color: #4d4d4d;
+}
+
+
+.bg-wrap {
+    background-color: #151719;
+}
+.bg-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bg-wrap .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+}
+div {
+    display: block;
+}
+
+
+
+
+.channel-signifier {
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: white;
+    padding-top: 8px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border: 1px;
+}
+
+.article-title wrap .article-title{
+    font-size: 20px;
+    color:aliceblue;
+
+}
+.article-title wrap .article-intro{
+    font-size: 14px;
+}
+
+
+
+>>>>>>> cf5623b20ccd979200e2aae60b149985b1159e80
 
 
 /*sidebar的css，還在嘗試當中*/
 
 .sidebar {
+<<<<<<< HEAD
     width: 300px;
     height: 520px;
     float: right;
     background: #C0C0C0;
     margin-top: 50px;
+=======
+     width: 300px;
+    height: 520px;
+    float: right;
+    background:black;
+    position:relative;  
+    border: none;
+    margin-top: 50px;
+    
+>>>>>>> cf5623b20ccd979200e2aae60b149985b1159e80
 }
 
 
@@ -551,8 +695,17 @@ header.sticky {
 } 
 
 
+<<<<<<< HEAD
 .sidebar-item:hover {
    background-color: #d6eff2;
+=======
+h3 {
+    display: inline-block;
+    font-size: 1.17em;
+    font-weight: bold;
+     color:white;
+     left: 20px;
+>>>>>>> cf5623b20ccd979200e2aae60b149985b1159e80
 }
 .sidebar .sidebar-item {
    padding: 12px 20px;
@@ -565,6 +718,14 @@ header.sticky {
    display: block;
    color: white;
 
+<<<<<<< HEAD
+=======
+.sidebar-title{
+    padding-top: 8px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #e3e3e3;
+>>>>>>> cf5623b20ccd979200e2aae60b149985b1159e80
 }
 
 .sidebar .sidebar-number{
@@ -572,11 +733,37 @@ header.sticky {
    color:whitesmoke;
    display: inline-block;
 }
+<<<<<<< HEAD
 
 .sidebar .sidebar-name{
    margin: auto;
    display: inline-block;
    font-size:  16px;
+=======
+.sidebar .sidebar-item {
+    padding: 12px 20px;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: block;
+    color:white;
+
+}
+
+.sidebar .sidebar-number{
+    margin: auto;
+    color:whitesmoke;
+    display: inline-block;
+}
+
+.sidebar .sidebar-name{
+    margin: auto;
+    display: inline-block;
+    font-size:  16px;
+>>>>>>> cf5623b20ccd979200e2aae60b149985b1159e80
 }
 
 a {
@@ -597,13 +784,35 @@ a {
 	float: left;
 }
 
+.footer{
+    background: black;
+	height: 95px;
+    width:1440px;
+    margin-top: 40px;
+    position: relative;
+    line-height: 56px;
+    float:left;
+    
+}
+
+
+
 .ft-contact {
 	display: inline-block;
 	margin-right: 15px;
 }
 
+<<<<<<< HEAD
 .ft-contact a {
 	color: white;
+=======
+.ft-about {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 22.5px;
+    margin-right: 20px;
+>>>>>>> cf5623b20ccd979200e2aae60b149985b1159e80
 }
 
 .ft-contact a:hover {
@@ -635,10 +844,6 @@ a {
 	display: inline-block;
 	margin-right: 10px;
 }
-
-
-
-
 
 
 
