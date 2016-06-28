@@ -80,6 +80,7 @@ header.sticky {
 .footer {
     background: black;
     height: 95px;
+	clear: both;
 }
 
 
@@ -399,6 +400,8 @@ header.sticky {
     background: dimgray;
     color: white;
     padding: 10px 0 ;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .whats-news-items {
@@ -421,52 +424,166 @@ header.sticky {
 }
 
 
+/*main*/
+
+.main {
+    width: 940px;
+	margin-top: 50px;
+    margin-right: 20px;
+    float: left;
+}
+
+
+.channel-title {
+    font-size: 24pt;
+	font-weight: bold;
+    padding-bottom: 14px;
+    border-bottom: 2px solid grey;
+}
+
+.channel-category {
+	margin: 20px 0 15px 0;
+}
+
+.cate-list li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.article-item {
+    float: left;
+	width: 300px;
+	height: 360px;
+}
+
+.article-item:nth-child(3n-2) {
+	margin-right: 20px;  
+}
+
+.article-item:nth-child(3n-1) {
+	margin-right: 20px;  
+}
+
+.article-cover{
+	width: 300px;
+    height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+.channel-signifier {
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 12px
+}
+
+.channel-signifier p {
+    text-shadow: 4px 4px 4px black;
+	letter-spacing: 4px;
+	font-size: 14px
+}
+
+.feedback {
+	color: white;
+	position: absolute;
+	top: 150px;
+	left: 160px;
+}
+
+.feedback li {
+	display: inline-block;
+}
+
+.feedback p  {
+	text-shadow: 4px 4px 4px black;
+	font-size: 14px;
+	margin-right: 5px
+}
+
+.view ::before {
+	content: url("http://placehold.it/10x10");
+}
+
+.comment ::before {
+	content: url("http://placehold.it/10x10");
+}
+
+.article-title-wrap {
+	height: 140px;
+	width: 300px;
+	overflow: hidden;
+}
+
+
+.article-title-wrap h4 {
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+.article-title-wrap p {
+	font-size: 10px;
+	margin-top: 5px;
+	color: #838383;
+}
+
+
 /*sidebar的css，還在嘗試當中*/
 
 .sidebar {
-     width: 300px;
-    height: 626px;
+    width: 300px;
+    height: 520px;
     float: right;
-    background: gray;
+    background: #C0C0C0;
+    margin-top: 50px;
 }
 
 
+.sidebar-title { 
+   text-align: center;
+   font-weight: bold;
+   color: white;
+   padding: 8px 8px 6px 8px;
+   padding-right: 10px;
+   font-size: 16px;
+   border-bottom: 2px dashed #e3e3e3;
+	
+} 
 
-h3 {
-    display: block;
-    font-size: 1.17em;
-    font-weight: bold;
-    color:white;
-}
-
-.sidebar-title{
-    padding-top: 16px;
-    font-size: 16px;
-    border-bottom: 2px solid black;
-}
 
 .sidebar-item:hover {
-    background-color: #d6eff2;
+   background-color: #d6eff2;
 }
 .sidebar .sidebar-item {
-    padding: 12px 20px;
-    display: inline-block;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    word-wrap: normal;
-    display: block;
-    color:white;
+   padding: 12px 20px;
+   display: inline-block;
+   max-width: 100%;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   word-wrap: normal;
+   display: block;
+   color: white;
+
+}
+
+.sidebar .sidebar-number{
+   margin: auto;
+   color:whitesmoke;
+   display: inline-block;
+}
+
+.sidebar .sidebar-name{
+   margin: auto;
+   display: inline-block;
+   font-size:  16px;
 }
 
 a {
-    text-decoration: none;
-    color: #151719;
-    transition: all 150ms ease;
+   text-decoration: none;
+   color: #151719;
+   transition: all 150ms ease;
 }
-
-
 
 /*footer*/
 
