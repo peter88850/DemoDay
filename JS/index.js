@@ -6,7 +6,7 @@ $(function(){
 	 $(".nv-wrapper").fadeToggle();
     });
 
-	//stickymenu//
+	//stickymenu 無法用//
 	$(window).trigger('scroll');
 	
     var headerOffsetTop = $("header").offset().top;
@@ -56,7 +56,12 @@ $(function(){
 		});
 	});
 	
+	//article-item mouseover//
 	
+	$(".article-item").on('mouseover',function(){
+		$(this).css('color','black');
+	});
+
 	
 	
 });

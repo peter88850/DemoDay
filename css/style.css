@@ -37,10 +37,11 @@ body {
 	font-family: arial, sans-serif;
 	font-size: 1em;
 	line-height: 150%;
+	background: #F2F2F2;
 }
 
 a {
-    
+	color: black;
 }
 
 input {
@@ -64,11 +65,12 @@ header {
 	height: 95px;
 }
 
-/* 不能固定 */
+/* 不能固定
 header.sticky {
 	width: 100%;
 	z-index: 2;
-}
+	position: fixed;
+} */
 
 /*layout*/
 
@@ -349,7 +351,6 @@ header.sticky {
 .img-caseshow {
     margin-top: 30px;
 	overflow: hidden;
-	
 }
 
 .hottest-news {
@@ -397,8 +398,8 @@ header.sticky {
 
 .whats-news-title {
     text-align: center;
-    background: dimgray;
-    color: white;
+    background: white;
+    color: #151719;
     padding: 10px 0 ;
 	font-size: 16px;
 	font-weight: bold;
@@ -433,11 +434,15 @@ header.sticky {
     float: left;
 }
 
+.channel {
+	margin-bottom: 40px;	
+}
+
 
 .channel-title {
     font-size: 24pt;
 	font-weight: bold;
-    padding-bottom: 14px;
+    padding-bottom: 20px;
     border-bottom: 2px solid grey;
 }
 
@@ -450,10 +455,16 @@ header.sticky {
 	margin-right: 20px;
 }
 
+
+.channel-content {
+	overflow: hidden;
+}
+
 .article-item {
     float: left;
 	width: 300px;
-	height: 360px;
+	height: 340px;
+	padding-bottom: 20px;
 }
 
 .article-item:nth-child(3n-2) {
@@ -532,58 +543,44 @@ header.sticky {
 
 .sidebar {
     width: 300px;
-    height: 520px;
+    height: 540px;
     float: right;
-    background: #C0C0C0;
+    background: white;
     margin-top: 50px;
 }
 
 
 .sidebar-title { 
-   text-align: center;
-   font-weight: bold;
-   color: white;
-   padding: 8px 8px 6px 8px;
-   padding-right: 10px;
-   font-size: 16px;
-   border-bottom: 2px dashed #e3e3e3;
-	
+	text-align: center;
+	font-weight: bold;
+	color: #151719;
+	margin: 4px 20px 10px 20px;
+	padding: 8px 8px 8px 8px;
+	padding-right: 10px;
+	font-size: 16px;
+	border-bottom: 2px dashed #151719;
 } 
+
+.sidebar-item {
+	display: inline-block;
+	width: 260px;
+	height: 12px;
+	padding: 14px 20px 20px 20px;
+}
 
 
 .sidebar-item:hover {
-   background-color: #d6eff2;
-}
-.sidebar .sidebar-item {
-   padding: 12px 20px;
-   display: inline-block;
-   max-width: 100%;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   word-wrap: normal;
-   display: block;
-   color: white;
+    background-color: #d6eff2;	
+} 
 
+
+.sidebar-name {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: black;
 }
 
-.sidebar .sidebar-number{
-   margin: auto;
-   color:whitesmoke;
-   display: inline-block;
-}
-
-.sidebar .sidebar-name{
-   margin: auto;
-   display: inline-block;
-   font-size:  16px;
-}
-
-a {
-   text-decoration: none;
-   color: #151719;
-   transition: all 150ms ease;
-}
 
 /*footer*/
 
