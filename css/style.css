@@ -171,7 +171,7 @@ header {
 }
 
 .nv-link {
-    padding: 20px 0;
+    padding: 20px;
 	
     
 }
@@ -295,19 +295,21 @@ header {
 }
 
 .nv-ability li:nth-child(1) span:before {
-    content: url();
+    content: url(img/present.png);
+	
 }
 
 .nv-ability li:nth-child(2) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url(img/talk.png);
+	
 }
 
 .nv-ability li:nth-child(3) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url(img/team.png);
 }
 
 .nv-ability li:nth-child(4) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url(img/pro.png);
 }
 
 .nv-view {
@@ -326,19 +328,19 @@ header {
 }
 
 .nv-view li:nth-child(1) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url(img/life.png);
 }
 
 .nv-view li:nth-child(2) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url(img/movie.png);
 }
 
 .nv-view li:nth-child(3) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url(img/aboard.png);
 }
 
 .nv-view li:nth-child(4) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url(img/travel.png);
 }
 
 
