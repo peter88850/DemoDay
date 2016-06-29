@@ -65,8 +65,8 @@ header {
 	height: 95px;
 }
 
-/* 不能固定
-header.sticky {
+
+/* header.sticky {
 	width: 100%;
 	z-index: 2;
 	position: fixed;
@@ -172,6 +172,13 @@ header.sticky {
 
 .nv-link {
     padding: 20px 0;
+	
+    
+}
+
+.nv-link li {
+    font-size: 16px;
+	
     
 }
 
@@ -187,83 +194,80 @@ header.sticky {
 
 .nv-work li {
     margin: 20px 0;
-    font-size: 14pt;
 }
 
 .nv-work li:nth-child(1) span:before {
-    content: url("http://placehold.it/30x30");
-    
+    content: url(img/finance.png);
     display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.75rem;
+    width: 2rem;
+	margin-left: 12px;
+	margin-right: 12px;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
 
 .nv-work li:nth-child(2) span:before {
-    content:  url("http://placehold.it/30x30");
-    
+    content: url(img/news.png);
     display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.75rem;
+    width: 2rem;
+	margin-left: 8px;
+	margin-right: 16px;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
 
 .nv-work li:nth-child(3) span:before {
-    content:  url("http://placehold.it/30x30");
+     content: url(img/consult.png);
     display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.75rem;
+    width: 2rem;
+	margin-left: 12px;
+	margin-right: 12px;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
 
 .nv-work li:nth-child(4) span:before {
-    content:  url("http://placehold.it/30x30");
+    content: url(img/tech.png);
     display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.75rem;
+    width: 2rem;
+	margin-left: 6px;
+	margin-right: 18px;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
 
 .nv-work li:nth-child(5) span:before {
-    content:  url("http://placehold.it/30x30");
+    content: url(img/market.png);
     display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.75rem;
+    width: 2rem;
+	margin-left: 8px;
+	margin-right: 16px;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
 
 .nv-work li:nth-child(6) span:before {
-    content:  url("http://placehold.it/30x30");
+    content: url(img/startup.png);
     display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.75rem;
+    width: 2rem;
+	margin-left: 13px;
+	margin-right: 11px;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
 }
 
 .nv-work li:nth-child(7) span:before {
-    content:  url("http://placehold.it/30x30");
+    content: url(img/other.png);
     display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    margin-right: 0.75rem;
+    width: 2rem;
+	margin-left: 11px;
+	margin-right: 13px;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
@@ -281,7 +285,6 @@ header.sticky {
 
 .nv-ability li {
     margin: 20px 20px 20px 0;
-    font-size: 14pt;
     display: inline-block;
     text-align: center;
     width: 100px;
@@ -292,7 +295,7 @@ header.sticky {
 }
 
 .nv-ability li:nth-child(1) span:before {
-    content: url("http://placehold.it/30x30");
+    content: url();
 }
 
 .nv-ability li:nth-child(2) span:before {
@@ -317,7 +320,6 @@ header.sticky {
 
 .nv-view li {
     margin: 20px 20px 20px 0;
-    font-size: 14pt;
     display: inline-block;
     text-align: center;
     width: 100px;
@@ -631,6 +633,7 @@ header.sticky {
 .ft-icon {
 	display: inline-block;
 	margin-right: 10px;
+	margin-top: 5px;
 }
 
 
