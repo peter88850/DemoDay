@@ -544,14 +544,6 @@ header {
 
 
 
-.channel {
-    width: 560px;
-    height: 230px;
-    float: left;
-    border-bottom: 2px solid white;
-    padding: 0 40px;
-}
-
 
 .channel li {
     margin: 20px 20px 20px 0;
@@ -560,9 +552,6 @@ header {
     width: 100px;
 }
 
-.cate-name {
-    margin-top: 5px;
-}
 
 .channel li:nth-child(1) span:before {
     content: url(img/present.png);
