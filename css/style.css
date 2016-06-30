@@ -543,6 +543,46 @@ header {
 }
 
 
+
+.channel-category {
+    width: 560px;
+    height: 230px;
+    float: left;
+    border-bottom: 2px solid white;
+    padding: 0 40px;
+}
+
+
+.channel-category li {
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+.cate-name {
+    margin-top: 5px;
+}
+
+.channel-category li:nth-child(1) span:before {
+    content: url(img/present.png);
+	
+}
+
+.channel-category li:nth-child(2) span:before {
+    content: url(img/talk.png);
+	
+}
+
+.channel-category li:nth-child(3) span:before {
+    content: url(img/team.png);
+}
+
+.channel-category li:nth-child(4) span:before {
+    content: url(img/pro.png);
+}
+
+
 /*sidebar的css，還在嘗試當中*/
 
 .sidebar {
