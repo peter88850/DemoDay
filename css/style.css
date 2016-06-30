@@ -543,6 +543,35 @@ header {
 }
 
 
+
+
+.channel li {
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+
+.channel li:nth-child(1) span:before {
+    content: url(img/present.png);
+	
+}
+
+.channel li:nth-child(2) span:before {
+    content: url(img/talk.png);
+	
+}
+
+.channel li:nth-child(3) span:before {
+    content: url(img/team.png);
+}
+
+.channel li:nth-child(4) span:before {
+    content: url(img/pro.png);
+}
+
+
 /*sidebar的css，還在嘗試當中*/
 
 .sidebar {
