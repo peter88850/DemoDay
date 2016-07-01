@@ -6,7 +6,7 @@ $(function(){
 	 $(".nv-wrapper").fadeToggle();
     });
 
-	//stickymenu 無法用//
+	//stickymenu //
 	$(window).trigger('scroll');
 	
     var headerOffsetTop = $("header").offset().top;
