@@ -61,16 +61,18 @@ p {
 }
 
 header {
-	background: black;
+	display: inline-block;
+	width: 1440px;
 	height: 95px;
+	background: black;
 }
 
-
-/* header.sticky {
+header.sticky {
 	width: 100%;
 	z-index: 2;
 	position: fixed;
-} */
+	top: 0;
+} 
 
 /*layout*/
 
@@ -121,6 +123,7 @@ header {
 /*navigator*/
 
 .nv-wrapper {
+	margin-top: 95px;
     width: 1440px;
     height: 706px;
     background: #333;
