@@ -61,6 +61,14 @@ $(function(){
 		$(this).css('color','black');
 	});
 
+	//channel-category mouseover//
 	
+	$(".cate-item")
+	 .on('mouseover',function(){
+		$(this).css('opacity',0.6);
+	})
+	 .on('mouseout',function(){
+		$(this).css('opacity',1);
+	});
 	
 });

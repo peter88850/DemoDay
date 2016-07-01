@@ -502,7 +502,7 @@ header {
 .feedback {
 	color: white;
 	position: absolute;
-	top: 150px;
+	top: 155px;
 	left: 160px;
 }
 
@@ -512,16 +512,18 @@ header {
 
 .feedback p  {
 	text-shadow: 4px 4px 4px black;
-	font-size: 14px;
-	margin-right: 5px
+	font-size: 12px;
+	display: inline-block;
+	margin-right: 5px;
+	
 }
 
 .view ::before {
-	content: url("http://placehold.it/10x10");
+	content: url(img/view.png);
 }
 
 .comment ::before {
-	content: url("http://placehold.it/10x10");
+	content: url(img/comment.png);
 }
 
 .article-title-wrap {
